@@ -6,12 +6,11 @@
 /*   By: gajayme <gajayme@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/15 17:00:18 by gajayme           #+#    #+#             */
-/*   Updated: 2021/11/09 11:15:42 by gajayme          ###   ########.fr       */
+/*   Updated: 2021/11/09 11:33:24 by gajayme          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
-#include <stdio.h>
 
 t_list	*fd_find(t_list **fd_list, int fd)
 {
