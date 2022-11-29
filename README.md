@@ -1,4 +1,3 @@
-# get_next_line
-This is my implementation of #2 project "get next line" in school 21.
-With all bonuses.
-:)
+# get_next_line (school 21 project)
+
+Simple analog of C funclion ``getline``
