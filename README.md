@@ -19,9 +19,9 @@ Bonus version of the program also can work with several file descriptors at once
 
 In case to just test the code, you need to write some ``main`` function and compile code that way:
 
-**Usual version:**``gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils_bonus.c``
+**Usual version:**``gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx your_main_file.c get_next_line.c get_next_line_utils_bonus.c``
 
-**Bonus version:** ``gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line_bonus.c get_next_line_utils.c``
+**Bonus version:** ``gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx your_main_file.c get_next_line_bonus.c get_next_line_utils.c``
 
 You can set appropriate buffer size by changing the value of ``xx`` it the script. And then run: ``./a.out`` file. Or you coud apply this code in some other projects by just add files into them:
 
